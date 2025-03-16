@@ -1,0 +1,32 @@
+
+#---------- weather Condition  ----------#
+    "clear sky": "سماء صافية",
+    "few clouds": "غيوم قليلة",
+    "scattered clouds": "غيوم متفرقة",
+    "broken clouds": "غيوم متقطعة",
+    "shower rain": "أمطار خفيفة",
+    "rain": "أمطار",
+    "thunderstorm": "عاصفة رعدية",
+    "snow": "ثلوج",
+    "mist": "ضباب"
+#---------- img weather Condition  ----------#
+const imgWeatherConditions = {
+    "01d": "سماء صافية",         // clear sky - نهار  
+    "01n": "سماء صافية",         // clear sky - ليل  
+    "02d": "غيوم قليلة",         // few clouds - نهار  
+    "02n": "غيوم قليلة",         // few clouds - ليل  
+    "03d": "غيوم متفرقة",        // scattered clouds - نهار  
+    "03n": "غيوم متفرقة",        // scattered clouds - ليل  
+    "04d": "غيوم متقطعة",        // broken clouds - نهار  
+    "04n": "غيوم متقطعة",        // broken clouds - ليل  
+    "09d": "أمطار خفيفة",        // shower rain - نهار  
+    "09n": "أمطار خفيفة",        // shower rain - ليل  
+    "10d": "أمطار",              // rain - نهار  
+    "10n": "أمطار",              // rain - ليل  
+    "11d": "عاصفة رعدية",       // thunderstorm - نهار  
+    "11n": "عاصفة رعدية",       // thunderstorm - ليل  
+    "13d": "ثلوج",              // snow - نهار  
+    "13n": "ثلوج",              // snow - ليل  
+    "50d": "ضباب",              // mist - نهار  
+    "50n": "ضباب"               // mist - ليل  
+};
