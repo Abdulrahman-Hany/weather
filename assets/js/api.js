@@ -8,9 +8,9 @@ let currentWeather = document.querySelector(".current-weather.one");
 let tenDaysForecastCard = document.querySelector(".forecast-list");
 let aqiCard = document.querySelector(".weather-grid");
 function getWeatherDetails(name, lat, lon, country, state) {
-  let FORECAST_API_URL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${api_key}`;
-  let WEATHER_API_URL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}`;
-  let WEATHER_API_URL_2 = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric`;
+  let FORECAST_API_URL = `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${api_key}`;
+  let WEATHER_API_URL = `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}`;
+  let WEATHER_API_URL_2 = `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric`;
   let days = [
     "Sunday",
     "Monday",
